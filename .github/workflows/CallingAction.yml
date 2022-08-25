@@ -3,7 +3,7 @@ name: CallingAction
 on: push
 
 jobs:
-  actions:
+  main:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
