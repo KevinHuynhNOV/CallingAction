@@ -1,0 +1,11 @@
+name: CallingAction
+
+on: push
+
+jobs:
+  actions:
+    runs-on: ubuntu-latest
+    steps:
+      uses: actions/checkout@v2
+      uses: KevinHuynhNOV/custom-action@main
+  
